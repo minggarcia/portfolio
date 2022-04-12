@@ -1,14 +1,11 @@
-import Head from 'next/head';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 
 function About() {
   return (
     <>
-      <Head>
+      <Header>
         <title>About</title>
-      </Head>
-
-      <Navbar />
+      </Header>
 
       <section className="hero">
         <div className="container">
